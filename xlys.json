@@ -1,0 +1,23 @@
+{
+  "name": "修罗影视 TVBox配置",
+  "spider": "https://jihulab.com/yoursmile2/TVBox/-/raw/master/Yoursmile.jar;md5;c6aaf6a9498e1e1d07126779c687bdd8",
+  "wallpaper": "https://w.wallhaven.cc/full/4g/wallhaven-4g8j9m.jpg",
+  "sites": [
+    {
+      "key": "csp_xlys",
+      "name": "🧲修罗影视",
+      "type": 3,
+      "api": "csp_xlys",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://www.xlys02.com"
+    }
+  ],
+  "parses": [
+    {"name": "解析1", "type": 1, "url": "https://jx.xmflv.com/?url="},
+    {"name": "解析2", "type": 1, "url": "https://jx.playerjy.com/?url="},
+    {"name": "解析3", "type": 1, "url": "https://jx.7777ys.com/?url="}
+  ],
+  "flags": ["qq","qiyi","youku","mgtv","bilibili","sohu","letv","xigua","1905","pptv"]
+}
