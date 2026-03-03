@@ -1,13 +1,13 @@
 {
-  "name": "修罗影视 TVBox配置",
+  "name": "🧲修罗影视 - 播放优化版",
   "spider": "https://jihulab.com/yoursmile2/TVBox/-/raw/master/Yoursmile.jar;md5;c6aaf6a9498e1e1d07126779c687bdd8",
   "wallpaper": "https://w.wallhaven.cc/full/4g/wallhaven-4g8j9m.jpg",
   "sites": [
     {
-      "key": "csp_xlys",
+      "key": "csp_Xlys",
       "name": "🧲修罗影视",
       "type": 3,
-      "api": "csp_xlys",
+      "api": "csp_Xlys",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -15,9 +15,16 @@
     }
   ],
   "parses": [
-    {"name": "解析1", "type": 1, "url": "https://jx.xmflv.com/?url="},
-    {"name": "解析2", "type": 1, "url": "https://jx.playerjy.com/?url="},
-    {"name": "解析3", "type": 1, "url": "https://jx.7777ys.com/?url="}
+    {"name": "Json聚合","type": 3,"url": "Demo"},
+    {"name": "Web聚合","type": 3,"url": "Web"},
+    {"name": "yemu解析","type": 0,"url": "https://www.yemu.xyz/?url="},
+    {"name": "jx解析","type": 0,"url": "https://jx.m3u8.tv/jx/jx.php?url="},
+    {"name": "免费分享","type": 0,"url": "https://jx.xmflv.com/?url="},
+    {"name": "羽路解析","type": 0,"url": "https://ylu.cc/index.php?url="},
+    {"name": "m3u8TV","type": 0,"url": "https://jx.m3u8.tv/jiexi/?url="},
+    {"name": "咸鱼解析","type": 0,"url": "https://jx.xymp4.cc/?url="},
+    {"name": "777解析","type": 0,"url": "https://jx.77flv.cc/?url="},
+    {"name": "夜幕解析","type": 0,"url": "https://yemu.xyz/?url="}
   ],
   "flags": ["qq","qiyi","youku","mgtv","bilibili","sohu","letv","xigua","1905","pptv"]
 }
