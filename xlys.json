@@ -1,5 +1,5 @@
 {
-  "name": "🧲修罗影视 - 播放优化版",
+  "name": "🧲修罗影视 - 磁力加强版",
   "spider": "https://jihulab.com/yoursmile2/TVBox/-/raw/master/Yoursmile.jar;md5;c6aaf6a9498e1e1d07126779c687bdd8",
   "wallpaper": "https://w.wallhaven.cc/full/4g/wallhaven-4g8j9m.jpg",
   "sites": [
@@ -15,16 +15,14 @@
     }
   ],
   "parses": [
-    {"name": "Json聚合","type": 3,"url": "Demo"},
-    {"name": "Web聚合","type": 3,"url": "Web"},
-    {"name": "yemu解析","type": 0,"url": "https://www.yemu.xyz/?url="},
-    {"name": "jx解析","type": 0,"url": "https://jx.m3u8.tv/jx/jx.php?url="},
-    {"name": "免费分享","type": 0,"url": "https://jx.xmflv.com/?url="},
-    {"name": "羽路解析","type": 0,"url": "https://ylu.cc/index.php?url="},
-    {"name": "m3u8TV","type": 0,"url": "https://jx.m3u8.tv/jiexi/?url="},
-    {"name": "咸鱼解析","type": 0,"url": "https://jx.xymp4.cc/?url="},
-    {"name": "777解析","type": 0,"url": "https://jx.77flv.cc/?url="},
-    {"name": "夜幕解析","type": 0,"url": "https://yemu.xyz/?url="}
+    {"name": "Json聚合(磁力首推)", "type": 3, "url": "Demo"},
+    {"name": "Web聚合(磁力首推)", "type": 3, "url": "Web"},
+    {"name": "夜幕解析", "type": 0, "url": "https://www.yemu.xyz/?url="},
+    {"name": "m3u8TV解析", "type": 0, "url": "https://jx.m3u8.tv/jiexi/?url="},
+    {"name": "羽路解析", "type": 0, "url": "https://ylu.cc/index.php?url="},
+    {"name": "咸鱼解析", "type": 0, "url": "https://jx.xymp4.cc/?url="},
+    {"name": "XMFLV解析", "type": 0, "url": "https://jx.xmflv.com/?url="},
+    {"name": "777解析", "type": 0, "url": "https://jx.7777ys.com/?url="}
   ],
-  "flags": ["qq","qiyi","youku","mgtv","bilibili","sohu","letv","xigua","1905","pptv"]
+  "flags": ["qq","qiyi","youku","mgtv","bilibili","sohu","letv","xigua","1905","pptv","磁力"]
 }
